@@ -1,0 +1,144 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+header {
+    background-color: black;
+}
+
+.navbar-nav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 8px 10px 8px 10;
+    margin-left: 100;
+}
+
+.nav-item {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px;
+    margin: 0;
+    padding: 2% 0;
+}
+
+.primary {
+    color: #4c9787;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-quote {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #4c9787;
+    color: #78d3bf;
+    text-align: center;
+}
+
+.main-content {
+    padding: 2% 20% 10% 5%;
+    color: #4c9787;
+}
+
+.col {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #4c9787;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.heading {
+    font-size: 2vw;
+    text-align: center;
+    color: linear-gradient(90deg,rgba(87, 127, 222, 1) 0%, rgba(151, 171, 232, 1) 49%, rgba(87, 127, 222, 1) 100%);
+}
+
+.col-head {
+    text-align: center;
+}
+
+.separator {
+    border-style: solid;
+    border-color: #575353;
+    border-top: 0%;
+    margin-bottom: 3%;
+}
+
+.name {
+    color: linear-gradient(90deg,rgba(87, 127, 222, 1) 0%, rgba(151, 171, 232, 1) 49%, rgba(87, 127, 222, 1) 100%);
+    font-size: 4vw;
+}
+
+.desc {
+    color: #b4dad1;
+    border-radius: 3px;
+}
+
+.footer {
+    margin-top: 3%;
+    background: #4C9787;
+    background: linear-gradient(90deg,rgba(76, 151, 135, 1) 0%, rgba(119, 191, 176, 1) 49%, rgba(76, 151, 135, 1) 100%);
+    padding-bottom: 3%;
+    border-style: solid;
+    border-color: #575353;
+    border-radius: 20%;
+}
+
+.footer-heading {
+    font-size: 2vw;
+    text-align: center;
+    color: #526d8f
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+scan {
+    color: #526d8f;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    border-radius: 15%;
+    border-style: solid;
+    border-color: #4C9787;
+    border-width: 1px;
+    padding: 1% 1% 1% 1%;
+    background-color: #78d3bf;
+}
+
+.spacing {
+    margin-top: 5%;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-border {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #4C9787;
+    padding: 2% 2% 2% 2%;
+    margin-left: 10%;
+}
