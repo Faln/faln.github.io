@@ -68,6 +68,7 @@ header {
     border-color: #575353;
     border-top: 0%;
     margin-bottom: 3%;
+    margin-top: 4%;
 }
 
 .name {
@@ -76,8 +77,11 @@ header {
 }
 
 .desc {
-    color: #b4dad1;
-    border-radius: 3px;
+    color: #d1e9e3;
+}
+
+.desc-highlighted {
+    color: #01f4bf;
 }
 
 .footer {
@@ -102,10 +106,6 @@ header {
     align-content: center;
     margin-left: 15%;
     margin-right: 15%;
-}
-
-scan {
-    color: #526d8f;
 }
 
 .skills-list {
@@ -141,4 +141,20 @@ scan {
     border-color: #4C9787;
     padding: 2% 2% 2% 2%;
     margin-left: 10%;
+}
+
+.c-inner {
+    margin-left: 25%;
+}
+
+.c-heading {
+    font-size: 3vw;
+    font-weight: 700;
+    color: #4C9787;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 2px 8px rgba(128, 255, 227, 0.5);
+    position: relative;
 }
