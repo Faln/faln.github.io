@@ -1,9 +1,9 @@
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
-
 header {
     background-color: black;
+}
+
+.custom-green {
+    color: #4c9787 !important;
 }
 
 .navbar-nav {
@@ -41,8 +41,31 @@ header {
 }
 
 .main-content {
-    padding: 2% 20% 10% 5%;
+    padding: 2% 5% 5% 5%;
     color: #4c9787;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.content-item {
+    flex: 1 1 30%;
+    background-color: #0f1f1c;
+    background: linear-gradient(145deg, #173c3a, #295a55);
+    border-left: 5px solid #78d3bf;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem;
+    color: #d1e9e3;
+    box-shadow: 0 4px 12px rgba(120, 211, 191, 0.2);
+}
+
+.centered {
+    text-align: center;
 }
 
 .col {
@@ -84,28 +107,55 @@ header {
     color: #01f4bf;
 }
 
-.footer {
-    margin-top: 3%;
-    background: #4C9787;
-    background: linear-gradient(90deg,rgba(76, 151, 135, 1) 0%, rgba(119, 191, 176, 1) 49%, rgba(76, 151, 135, 1) 100%);
-    padding-bottom: 3%;
-    border-style: solid;
-    border-color: #575353;
-    border-radius: 20%;
+.contact-section {
+    padding: 5% 8%;
+    background: linear-gradient(135deg, #0d1b18, #17302b);
+    border-radius: 20px;
+    margin-top: 5%;
+    box-shadow: 0 0 20px rgba(1, 244, 191, 0.1);
+    color: #e1f7f2;
 }
 
-.footer-heading {
-    font-size: 2vw;
+.contact-heading {
+    font-size: 2.5rem;
     text-align: center;
-    color: #526d8f
+    margin-bottom: 2rem;
+    color: #78d3bf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 2px 6px rgba(1, 244, 191, 0.2);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background: #10211d;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+}
+
+.contact-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: white;
+    padding: 2%;
+}   
+
+.contact-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .socials {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .skills-list {
@@ -157,4 +207,88 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0 2px 8px rgba(128, 255, 227, 0.5);
     position: relative;
+}
+
+.skills-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1rem 2rem;
+}
+
+.skill-bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(145deg, #78d3bf, #4c9787);
+    color: #001f1f;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #4c9787;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.projects-section {
+    padding: 5% 10%;
+    background-color: #0f1f1c;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(1, 244, 191, 0.1);
+}
+
+.projects-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #78d3bf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 2px 6px rgba(1, 244, 191, 0.2);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.project-item {
+    background: linear-gradient(135deg, #1a2b29, #203431);
+    border-radius: 16px;
+    padding: 2rem;
+    color: #e7fdf7;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-item h3 {
+    font-size: 1.6rem;
+    color: #01f4bf;
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    color: #78d3bf;
+    text-decoration: none;
+    gap: 0.5rem;
+}
+
+.project-link img {
+    height: 28px;
+    width: 28px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px;
 }

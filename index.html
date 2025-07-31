@@ -21,16 +21,16 @@
                 <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-info p-2" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active custom-green p-2" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info p-2" href="#projects">Projects</a>
+                            <a class="nav-link custom-green p-2" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info p-2" href="#skills">Skills</a>
+                            <a class="nav-link custom-green p-2" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info p-2" href="#contact">Contact</a>
+                            <a class="nav-link custom-green p-2" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -109,30 +109,27 @@
             <div class="row separator"></div>
 
             <div class="row content">
+                <div class="content-item centered">
+                    <h4>Experience</h4>
+                    <p>
+                        4+ years of Java development with Spring Boot, building robust APIs and scalable backend systems.
+                    </p>
+                </div>
 
-                <div class="col">
-                    <h4 class="col-head">Experience</h4>
-                    <p class="desc">
-                        Currently <strong>4+ Years</strong> in Java, primarily
-                        with Spring/Spring Boot Framework.
+                <div class="content-item centered">
+                    <h4>Programming Values</h4>
+                    <p>
+                        I value clean, modular, and maintainable code — always prioritizing readability, simplicity, and scalability.
                     </p>
                 </div>
-                <div class="col">
-                    <h4 class="col-head">Programming Values</h4>
-                    <p class="desc">
-                        I strive for clean, modular, and maintainable code, 
-                        prioritizing readability, simplicity, and 
-                        scalability so that my work remains reliable 
-                        and easy to improve over time.
-                    </p>
-                </div>
-                <div class="col">
-                    <h4 class="col-head">Hobbies</h4>
+
+                <div class="content-item">
+                    <h4 class="centered">Hobbies</h4>
                     <ul>
-                        <li>Enjoying Cats</li>
-                        <li>Food & Health</li>
-                        <li>Video Games: LoL, EFT</li>
-                        <li>Family</li>
+                        <li>Playing with cats</li>
+                        <li>Exploring food & fitness</li>
+                        <li>Gaming: LoL, Escape from Tarkov</li>
+                        <li>Spending time with family</li>
                     </ul>
                 </div>
             </div>
@@ -140,25 +137,28 @@
             <div id="skills" class="spacing">
                 <h3 class="heading">Skills</h3>
 
-                <div class="skills-list">
-                    <scan class="skill"><strong>Java</strong></scan>
-                    <scan class="skill"><strong>HTML</strong></scan>
-                    <scan class="skill"><strong>CSS</strong></scan>
-                    <scan class="skill"><strong>MongoDB</strong></scan>
-                    <scan class="skill"><strong>NodeJS</strong></scan>
-                    <scan class="skill"><strong>JavaScript</strong></scan>
-                    <scan class="skill"><strong>SQL</strong></scan>
-                    <scan class="skill"><strong>Git</strong></scan>
-                    <scan class="skill"><strong>Spring</strong></scan>
-                    <scan class="skill"><strong>Spring Boot</strong></scan>
+                <div class="skills-grid">
+                    <div class="skill-bubble">Java</div>
+                    <div class="skill-bubble">Spring</div>
+                    <div class="skill-bubble">Spring Boot</div>
+                    <div class="skill-bubble">MongoDB</div>
+                    <div class="skill-bubble">SQL</div>
+                    <div class="skill-bubble">HTML</div>
+                    <div class="skill-bubble">CSS</div>
+                    <div class="skill-bubble">JavaScript</div>
+                    <div class="skill-bubble">Node.js</div>
+                    <div class="skill-bubble">Git</div>
                 </div>
             </div>
 
-            <div id="projects" class="spacing">
-                <h3 class="heading">Projects</h3>
+            <br>
+            <div class="row separator"></div>
 
-                <div class="projects">
-                    <div class="robots-project project-border">
+            <div id="projects" class="spacing projects-section">
+                <h3 class="projects-heading">Projects</h3>
+
+                <div class="projects-grid">
+                    <div class="robots-project project-item">
                         <h3>Virtual Robots</h3>
                         <p class="desc">
                             A <a href="https://hub.spigotmc.org/javadocs/spigot/">SpigotMC</a> (or equivalent forks) based plugin <br>
@@ -166,13 +166,13 @@
                             from various popular projects such as Citizens2, znpcs.
                         </p>
                         <br>
-                        <a href="https://github.com/Faln/Robots" target="_blank">
+                        <a href="https://github.com/Faln/Robots" target="_blank" class="project-link">
                             <img height="30" width="30" src="./images/github-logo.jpg">
                             <span>View Code</span>
                         </a>
                     </div>
 
-                    <div class="enchants-project project-border">
+                    <div class="enchants-project project-item">
                         <h3>Custom Enchants</h3>
                         <p class="desc">
                             A <a href="https://hub.spigotmc.org/javadocs/spigot/">SpigotMC</a> (or equivalent forks) based plugin <br>
@@ -180,7 +180,7 @@
                             to only use player metadata.
                         </p>
                         <br>
-                        <a href="https://github.com/Faln/ChaoticEnchants" target="_blank">
+                        <a href="https://github.com/Faln/ChaoticEnchants" target="_blank" class="project-link">
                             <img height="30" width="30" src="./images/github-logo.jpg">
                             <span>View Code</span>
                         </a>
@@ -188,23 +188,23 @@
                 </div>
             </div>
 
-            <div id="contact" class="footer">
-                <h3 class="footer-heading">Contact Me</h3>
+            <div id="contact" class="contact-section spacing">
+                <h3 class="contact-heading">Contact Me</h3>
                 
                 <div class="socials">
-                    <div class="discord">   
+                    <div class="discord contact-item">   
                         <img width="50" height="40" src="./images/discord-logo.jpg" alt="Discord Logo">
                         <scan>@faln</scan>
                     </div>
                     
-                    <div class="github">
+                    <div class="github contact-item">
                         <a href="https://github.com/Faln" target="_blank">
                             <img width="50" height="40" src="./images/github-logo.jpg" alt="Github Logo">
                         </a>
                         <scan>@Faln</scan>
                     </div>
                     
-                    <div class="gmail">
+                    <div class="gmail contact-item">
                         <img width="50" height="40" src="./images/gmail-logo.jpg" alt="Github Logo">
                         <scan>tchen1732@gmail.com</scan>
                     </div>
